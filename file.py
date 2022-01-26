@@ -10,7 +10,7 @@ class Desc:
     self.yob=yob
   
   def printChar(self):
-    print('%s was borin in %d and is %d years old'%(self.name,self.yob,self.age))
+    print('%s was born in %d and is %d years old'%(self.name,self.yob,self.age))
 person=Desc('Steve',23,1994)
 
 print(person.printChar())
