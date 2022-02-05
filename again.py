@@ -1,3 +1,3 @@
-def printer(n):
-  for i in range(1,n+1,1):
-    print(i)
+
+def printer():
+  print("File two __name__ is set to: {}" .format(__name__))

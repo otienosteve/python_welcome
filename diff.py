@@ -6,3 +6,4 @@ def getDiff():
   diff=set(l3)-set(ls)
   df=list(diff)
   print(df)
+print('What are you up to??')
